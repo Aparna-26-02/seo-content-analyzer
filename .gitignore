@@ -1,0 +1,11 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore large data and model files if necessary
+# (Your model files are small, so this is just good practice)
+*.joblib
+data.csv
